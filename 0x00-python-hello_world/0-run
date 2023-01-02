@@ -1,2 +1,2 @@
 #!/bin/bash
-python python_script.py3
+python $PYFILE.py3
