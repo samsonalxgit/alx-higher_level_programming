@@ -1,3 +1,2 @@
-#!/usr/bin/python3
 #!/bin/bash
 python python_script.py3
