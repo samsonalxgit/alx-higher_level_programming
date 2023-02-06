@@ -1,14 +1,13 @@
 #!/usr/bin/python3
+""" Creating Mylist class """
 
-""" Crating Mylist class """
 
-
-class Mylist(list):
+class MyList(list):
     """
-    Mylist class that inherit list
+    MyList class that inherits from list
     """
     def print_sorted(self):
         """
-        prints the list in sorted order
+        Prints the list in sorted order
         """
         print(sorted(self))

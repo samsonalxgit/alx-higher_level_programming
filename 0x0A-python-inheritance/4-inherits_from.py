@@ -2,7 +2,6 @@
 """ Return Only sub class of a class """
 
 
-
 def inherits_from(obj, a_class):
     """
     Return true if the object is an instance of a class
