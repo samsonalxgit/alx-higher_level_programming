@@ -1,4 +1,4 @@
-For doing this project I used Google searches, Youtube tutorials and also stack overflow. Resources provided on the page also were most supportive to accomplish this project. Below are detail of tne project
+For doing this project I used Google searches, Youtube tutorials and also stack overflow. Resources provided on the page also were most supportive to accomplish this project. Below are detail of the project
 Requirements
 General
 Allowed editors: vi, vim, emacs
