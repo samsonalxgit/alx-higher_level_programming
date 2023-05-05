@@ -1,9 +1,7 @@
 #!/usr/bin/node
-
-let fileA = process.argv[2];
-let fileB = process.argv[3];
-let fileC = process.argv[4];
 const fs = require('fs');
-const textA = fs.readFileSync(fileA, 'utf8');
-const textB = fs.readFileSync(fileB, 'utf8');
-fs.writeFileSync(fileC, textA + textB);
+
+const file1 = fs.readFileSync(process.argv[2]).toString();
+const file2 = fs.readFileSync(process.argv[3]).toString();
+const file3 = process.argv[4]
+fs.writeFileSync(file3, file1 + file2);
