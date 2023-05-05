@@ -1,4 +1,4 @@
-#!/usr/bin/nod
+#!/usr/bin/node
 //To write three languages of coding
 
 console.log('C is fun');
