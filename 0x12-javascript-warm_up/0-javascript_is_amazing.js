@@ -3,5 +3,4 @@
 #must use console.log(...) to print all output
 #You are not allowed to use var
 
-myvar = “JavaScript is amazing”
-console.log(myvar)
+console.log("JavaScript is amazing);
