@@ -1,13 +1,11 @@
 #!/usr/bin/node
-//Display a message depending on the argument passed
-
-const args = (count);
-
-if (count < 1){
-	console.log("No argument");
-} else if (count = 1){
-	console.log("Argument found");
-} else{
-	console.log("Arguments found");
+const process = require('process');
+let resp;
+if (process.argv.length === 3) {
+  resp = 'Argument found';
+} else if (process.argv.length < 3) {
+  resp = 'No argument';
+} else {
+  resp = 'Arguments found';
 }
-
+console.log(resp);
