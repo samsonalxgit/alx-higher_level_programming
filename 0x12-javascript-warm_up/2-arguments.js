@@ -1,11 +1,11 @@
 #!/usr/bin/node
-//Determine the number of arguments
+// Determine the number of arguments
 
-function argCount(args){
-	if( args = 0){
+function func(args) {
+	if ( args = 0){
 		console.log('No argument');
 	}
-	else if(args = 1){
+	else if (args = 1){
 		console.log('Argument found');
 	}
 	else{
