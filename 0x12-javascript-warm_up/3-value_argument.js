@@ -1,3 +1,2 @@
 #!/usr/bin/node
-if (process.argv.slice(2).length == 0) {
-  console.log('Arguments found');
+console.log(process.argv[2] ? process.argv[2] : 'No argument');
