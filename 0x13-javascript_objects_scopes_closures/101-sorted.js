@@ -1,13 +1,13 @@
 #!/usr/bin/node
+const dict = require('./101-data.js').dict;
 
-const dict = require('./101-data').dict;
+const newDict = {};
 
-let newDic = {};
-for (let key in dict) {
-  if (newDic[dict[key]] === undefined) {
-    newDic[dict[key]] = [];
+Object.getOwnPropertyNames(dict).forEach(occurences => {
+  if (newDict[dict[occurences]] === undefined) {
+    newDict[dict[occurences]] = [occurences];
+  } else {
+    newDict[dict[occurences]].push(occurences);
   }
-  newDic[dict[key]].push(key);
-}
-
-console.log(newDic);
+});
+console.log(newDict);
